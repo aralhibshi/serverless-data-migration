@@ -1,0 +1,110 @@
+service: serverless-data-migration
+frameworkVersion: '4'
+
+provider:
+  name: aws
+  runtime: nodejs24.x
+  architecture: arm64
+  region: ${opt:region, 'us-east-1'}
+  stage: ${opt:stage, 'dev'}
+  memorySize: 512
+  logRetentionInDays: 14
+  environment:
+    SUBSCRIBERS_TABLE: !Ref SubscribersTable
+    TRACKING_TABLE: !Ref TrackingTable
+    MIGRATION_QUEUE_URL: !Ref MigrationQueue
+  iam:
+    role:
+      statements:
+        - Effect: Allow
+          Action: [dynamodb:GetItem, dynamodb:PutItem, dynamodb:Scan]
+          Resource: !GetAtt SubscribersTable.Arn
+        - Effect: Allow
+          Action: [dynamodb:GetItem, dynamodb:UpdateItem, dynamodb:BatchWriteItem, dynamodb:Query]
+          Resource: !GetAtt TrackingTable.Arn
+        - Effect: Allow
+          Action: sqs:SendMessage
+          Resource: !GetAtt MigrationQueue.Arn
+
+functions:
+  orchestrator:
+    handler: src/handlers/orchestrator.handler
+    description: Selects records to migrate (or dry-runs) and enqueues one message per record.
+    timeout: 900
+
+  processor:
+    handler: src/handlers/processor.handler
+    description: Migrates one record per message, idempotently, reporting partial batch failures.
+    timeout: 30
+    events:
+      - sqs:
+          arn: !GetAtt MigrationQueue.Arn
+          batchSize: 10
+          functionResponseType: ReportBatchItemFailures
+          # Caps concurrent processors (2 is the lowest SQS allows), so the migration stays well
+          # within DynamoDB limits while live traffic continues.
+          maximumConcurrency: 2
+
+  failureHandler:
+    handler: src/handlers/failureHandler.handler
+    description: Tracks every record whose retries ran out as failed, with its reason.
+    timeout: 30
+    events:
+      - sqs:
+          arn: !GetAtt MigrationDeadLetterQueue.Arn
+          batchSize: 10
+          functionResponseType: ReportBatchItemFailures
+
+  report:
+    handler: src/handlers/report.handler
+    description: Returns a summary and a CSV of every record's outcome.
+    timeout: 60
+
+resources:
+  Resources:
+    # Explicit names include the stage, so stages never clash. Changing a table's key schema would need a new
+    # name, because CloudFormation creates the replacement before deleting the old table.
+    SubscribersTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: ${self:service}-${sls:stage}-subscribers
+        BillingMode: PAY_PER_REQUEST
+        AttributeDefinitions:
+          - { AttributeName: subscriberId, AttributeType: S }
+        KeySchema:
+          - { AttributeName: subscriberId, KeyType: HASH }
+
+    TrackingTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: ${self:service}-${sls:stage}-migration-tracking
+        BillingMode: PAY_PER_REQUEST
+        AttributeDefinitions:
+          - { AttributeName: migrationId, AttributeType: S }
+          - { AttributeName: recordId, AttributeType: S }
+        KeySchema:
+          - { AttributeName: migrationId, KeyType: HASH }
+          - { AttributeName: recordId, KeyType: RANGE }
+
+    MigrationQueue:
+      Type: AWS::SQS::Queue
+      Properties:
+        QueueName: ${self:service}-${sls:stage}-migration-queue
+        # At least 6x the processor timeout, as AWS recommends for Lambda event sources.
+        VisibilityTimeout: 180
+        SqsManagedSseEnabled: true
+        RedrivePolicy:
+          deadLetterTargetArn: !GetAtt MigrationDeadLetterQueue.Arn
+          maxReceiveCount: 3
+
+    MigrationDeadLetterQueue:
+      Type: AWS::SQS::Queue
+      Properties:
+        QueueName: ${self:service}-${sls:stage}-migration-dlq
+        VisibilityTimeout: 180
+        MessageRetentionPeriod: 1209600 # 14 days, the maximum
+        SqsManagedSseEnabled: true
+
+  Outputs:
+    SubscribersTableName:
+      Value: !Ref SubscribersTable

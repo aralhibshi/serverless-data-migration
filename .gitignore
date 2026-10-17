@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build and deploy output
+.serverless/
+.esbuild/
+dist/
+coverage/
+
+# Reports exported locally (the committed sample report is the exception)
+*.csv
+!docs/sample-report.csv
+
+# Raw output captured from a real run, used to write the README
+.run/
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor and OS
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+
+# Private working notes for this repo (not published)
+CLAUDE.md

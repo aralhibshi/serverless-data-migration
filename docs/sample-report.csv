@@ -1,0 +1,501 @@
+record_id,status,use_case,before_pause,before_plan,before_status,after_pause,after_plan,after_status,reason,attempts,updated_at
+sub-00000,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:09:46.394Z
+sub-00001,failed,,none,medium box,paused,,,,Paused subscriber has no pausedUntil date,0,2026-10-17T18:14:01.981Z
+sub-00002,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:05.767Z
+sub-00003,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:09.346Z
+sub-00004,succeeded,paused-subscriber,until 2027-05-05,medium box,paused,until 2027-05-05,5 meals/week,paused,,0,2026-10-17T18:14:03.640Z
+sub-00005,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:10.711Z
+sub-00006,succeeded,paused-subscriber,until 2027-07-07,small box,paused,until 2027-07-07,3 meals/week,paused,,0,2026-10-17T18:14:05.252Z
+sub-00007,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:11.171Z
+sub-00008,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:06.161Z
+sub-00009,succeeded,paused-subscriber,until 2027-10-10,small box,paused,until 2027-10-10,3 meals/week,paused,,0,2026-10-17T18:09:46.693Z
+sub-00010,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:09:47.693Z
+sub-00011,succeeded,paused-subscriber,until 2027-12-12,large box,paused,until 2027-12-12,8 meals/week,paused,,0,2026-10-17T18:14:10.002Z
+sub-00012,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:02.111Z
+sub-00013,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:09.471Z
+sub-00014,succeeded,paused-subscriber,until 2027-03-15,large box,paused,until 2027-03-15,8 meals/week,paused,,0,2026-10-17T18:14:04.515Z
+sub-00015,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:10:16.218Z
+sub-00016,succeeded,paused-subscriber,until 2027-05-17,medium box,paused,until 2027-05-17,5 meals/week,paused,,0,2026-10-17T18:14:09.736Z
+sub-00017,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:05.576Z
+sub-00018,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:09:46.613Z
+sub-00019,succeeded,paused-subscriber,until 2027-08-20,medium box,paused,until 2027-08-20,5 meals/week,paused,,0,2026-10-17T18:14:02.456Z
+sub-00020,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:04.991Z
+sub-00021,succeeded,paused-subscriber,until 2027-10-22,small box,paused,until 2027-10-22,3 meals/week,paused,,0,2026-10-17T18:14:08.847Z
+sub-00022,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:08.695Z
+sub-00023,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:02.355Z
+sub-00024,succeeded,paused-subscriber,until 2027-01-25,small box,paused,until 2027-01-25,3 meals/week,paused,,0,2026-10-17T18:14:06.495Z
+sub-00025,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:10.032Z
+sub-00026,succeeded,paused-subscriber,until 2027-03-27,large box,paused,until 2027-03-27,8 meals/week,paused,,0,2026-10-17T18:14:04.452Z
+sub-00027,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:10.667Z
+sub-00028,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:10:16.052Z
+sub-00029,succeeded,paused-subscriber,until 2027-06-02,large box,paused,until 2027-06-02,8 meals/week,paused,,0,2026-10-17T18:10:15.857Z
+sub-00030,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:10:15.879Z
+sub-00031,succeeded,paused-subscriber,until 2027-08-04,medium box,paused,until 2027-08-04,5 meals/week,paused,,0,2026-10-17T18:09:47.079Z
+sub-00032,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:07.383Z
+sub-00033,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:03.179Z
+sub-00034,succeeded,paused-subscriber,until 2027-11-07,medium box,paused,until 2027-11-07,5 meals/week,paused,,0,2026-10-17T18:14:07.656Z
+sub-00035,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:10:16.418Z
+sub-00036,succeeded,paused-subscriber,until 2027-01-09,small box,paused,until 2027-01-09,3 meals/week,paused,,0,2026-10-17T18:14:11.751Z
+sub-00037,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:10.088Z
+sub-00038,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:06.588Z
+sub-00039,succeeded,paused-subscriber,until 2027-04-12,small box,paused,until 2027-04-12,3 meals/week,paused,,0,2026-10-17T18:14:10.614Z
+sub-00040,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:10.467Z
+sub-00041,succeeded,paused-subscriber,until 2027-06-14,large box,paused,until 2027-06-14,8 meals/week,paused,,0,2026-10-17T18:14:05.787Z
+sub-00042,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:08.155Z
+sub-00043,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:10:16.453Z
+sub-00044,succeeded,paused-subscriber,until 2027-09-17,large box,paused,until 2027-09-17,8 meals/week,paused,,0,2026-10-17T18:14:10.731Z
+sub-00045,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:05.095Z
+sub-00046,succeeded,paused-subscriber,until 2027-11-19,medium box,paused,until 2027-11-19,5 meals/week,paused,,0,2026-10-17T18:14:03.633Z
+sub-00047,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:03.596Z
+sub-00048,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:09:46.453Z
+sub-00049,succeeded,paused-subscriber,until 2027-02-22,medium box,paused,until 2027-02-22,5 meals/week,paused,,0,2026-10-17T18:10:16.272Z
+sub-00050,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:09:47.013Z
+sub-00051,failed,,none,small box,paused,,,,Paused subscriber has no pausedUntil date,0,2026-10-17T18:14:05.729Z
+sub-00052,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:02.488Z
+sub-00053,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:10.558Z
+sub-00054,succeeded,paused-subscriber,until 2027-07-27,small box,paused,until 2027-07-27,3 meals/week,paused,,0,2026-10-17T18:14:03.156Z
+sub-00055,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:09:46.353Z
+sub-00056,succeeded,paused-subscriber,until 2027-09-01,large box,paused,until 2027-09-01,8 meals/week,paused,,0,2026-10-17T18:14:06.535Z
+sub-00057,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:08.075Z
+sub-00058,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:02.532Z
+sub-00059,succeeded,paused-subscriber,until 2027-12-04,large box,paused,until 2027-12-04,8 meals/week,paused,,0,2026-10-17T18:14:07.048Z
+sub-00060,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:10:16.517Z
+sub-00061,succeeded,paused-subscriber,until 2027-02-06,medium box,paused,until 2027-02-06,5 meals/week,paused,,0,2026-10-17T18:14:07.593Z
+sub-00062,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:05.034Z
+sub-00063,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:05.736Z
+sub-00064,succeeded,paused-subscriber,until 2027-05-09,medium box,paused,until 2027-05-09,5 meals/week,paused,,0,2026-10-17T18:14:06.996Z
+sub-00065,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:04.915Z
+sub-00066,succeeded,paused-subscriber,until 2027-07-11,small box,paused,until 2027-07-11,3 meals/week,paused,,0,2026-10-17T18:14:06.987Z
+sub-00067,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:10.187Z
+sub-00068,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:04.612Z
+sub-00069,succeeded,paused-subscriber,until 2027-10-14,small box,paused,until 2027-10-14,3 meals/week,paused,,0,2026-10-17T18:14:09.511Z
+sub-00070,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:11.116Z
+sub-00071,succeeded,paused-subscriber,until 2027-12-16,large box,paused,until 2027-12-16,8 meals/week,paused,,0,2026-10-17T18:14:06.840Z
+sub-00072,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:05.619Z
+sub-00073,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:10:16.698Z
+sub-00074,succeeded,paused-subscriber,until 2027-03-19,large box,paused,until 2027-03-19,8 meals/week,paused,,0,2026-10-17T18:14:05.011Z
+sub-00075,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:10.014Z
+sub-00076,succeeded,paused-subscriber,until 2027-05-21,medium box,paused,until 2027-05-21,5 meals/week,paused,,0,2026-10-17T18:14:07.487Z
+sub-00077,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:07.072Z
+sub-00078,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:02.589Z
+sub-00079,succeeded,paused-subscriber,until 2027-08-24,medium box,paused,until 2027-08-24,5 meals/week,paused,,0,2026-10-17T18:09:48.117Z
+sub-00080,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:04.535Z
+sub-00081,succeeded,paused-subscriber,until 2027-10-26,small box,paused,until 2027-10-26,3 meals/week,paused,,0,2026-10-17T18:14:08.836Z
+sub-00082,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:10:16.053Z
+sub-00083,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:04.475Z
+sub-00084,succeeded,paused-subscriber,until 2027-01-01,small box,paused,until 2027-01-01,3 meals/week,paused,,0,2026-10-17T18:09:46.513Z
+sub-00085,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:06.911Z
+sub-00086,succeeded,paused-subscriber,until 2027-03-03,large box,paused,until 2027-03-03,8 meals/week,paused,,0,2026-10-17T18:09:46.573Z
+sub-00087,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:10:15.918Z
+sub-00088,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:05.711Z
+sub-00089,succeeded,paused-subscriber,until 2027-06-06,large box,paused,until 2027-06-06,8 meals/week,paused,,0,2026-10-17T18:10:16.679Z
+sub-00090,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:05.207Z
+sub-00091,succeeded,paused-subscriber,until 2027-08-08,medium box,paused,until 2027-08-08,5 meals/week,paused,,0,2026-10-17T18:14:05.668Z
+sub-00092,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:01.968Z
+sub-00093,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:05.086Z
+sub-00094,succeeded,paused-subscriber,until 2027-11-11,medium box,paused,until 2027-11-11,5 meals/week,paused,,0,2026-10-17T18:14:02.067Z
+sub-00095,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:08.335Z
+sub-00096,succeeded,paused-subscriber,until 2027-01-13,small box,paused,until 2027-01-13,3 meals/week,paused,,0,2026-10-17T18:14:04.221Z
+sub-00097,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:11.191Z
+sub-00098,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:08.791Z
+sub-00099,succeeded,paused-subscriber,until 2027-04-16,small box,paused,until 2027-04-16,3 meals/week,paused,,0,2026-10-17T18:14:07.447Z
+sub-00100,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:08.307Z
+sub-00101,failed,,none,large box,paused,,,,Paused subscriber has no pausedUntil date,0,2026-10-17T18:14:04.551Z
+sub-00102,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:10.990Z
+sub-00103,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:09:47.153Z
+sub-00104,succeeded,paused-subscriber,until 2027-09-21,large box,paused,until 2027-09-21,8 meals/week,paused,,0,2026-10-17T18:09:48.101Z
+sub-00105,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:02.952Z
+sub-00106,succeeded,paused-subscriber,until 2027-11-23,medium box,paused,until 2027-11-23,5 meals/week,paused,,0,2026-10-17T18:14:09.556Z
+sub-00107,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:10.215Z
+sub-00108,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:10.851Z
+sub-00109,succeeded,paused-subscriber,until 2027-02-26,medium box,paused,until 2027-02-26,5 meals/week,paused,,0,2026-10-17T18:10:16.193Z
+sub-00110,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:02.555Z
+sub-00111,succeeded,paused-subscriber,until 2027-04-28,small box,paused,until 2027-04-28,3 meals/week,paused,,0,2026-10-17T18:14:08.392Z
+sub-00112,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:08.685Z
+sub-00113,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:11.499Z
+sub-00114,succeeded,paused-subscriber,until 2027-07-03,small box,paused,until 2027-07-03,3 meals/week,paused,,0,2026-10-17T18:09:47.053Z
+sub-00115,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:08.987Z
+sub-00116,succeeded,paused-subscriber,until 2027-09-05,large box,paused,until 2027-09-05,8 meals/week,paused,,0,2026-10-17T18:14:03.831Z
+sub-00117,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:02.628Z
+sub-00118,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:02.508Z
+sub-00119,succeeded,paused-subscriber,until 2027-12-08,large box,paused,until 2027-12-08,8 meals/week,paused,,0,2026-10-17T18:14:05.676Z
+sub-00120,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:03.068Z
+sub-00121,succeeded,paused-subscriber,until 2027-02-10,medium box,paused,until 2027-02-10,5 meals/week,paused,,0,2026-10-17T18:09:47.178Z
+sub-00122,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:11.600Z
+sub-00123,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:07.567Z
+sub-00124,succeeded,paused-subscriber,until 2027-05-13,medium box,paused,until 2027-05-13,5 meals/week,paused,,0,2026-10-17T18:09:47.473Z
+sub-00125,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:11.715Z
+sub-00126,succeeded,paused-subscriber,until 2027-07-15,small box,paused,until 2027-07-15,3 meals/week,paused,,0,2026-10-17T18:09:47.133Z
+sub-00127,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:04.379Z
+sub-00128,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:04.255Z
+sub-00129,succeeded,paused-subscriber,until 2027-10-18,small box,paused,until 2027-10-18,3 meals/week,paused,,0,2026-10-17T18:14:08.435Z
+sub-00130,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:08.788Z
+sub-00131,succeeded,paused-subscriber,until 2027-12-20,large box,paused,until 2027-12-20,8 meals/week,paused,,0,2026-10-17T18:14:10.387Z
+sub-00132,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:06.936Z
+sub-00133,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:09:47.434Z
+sub-00134,succeeded,paused-subscriber,until 2027-03-23,large box,paused,until 2027-03-23,8 meals/week,paused,,0,2026-10-17T18:14:03.694Z
+sub-00135,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:09:47.613Z
+sub-00136,succeeded,paused-subscriber,until 2027-05-25,medium box,paused,until 2027-05-25,5 meals/week,paused,,0,2026-10-17T18:14:06.291Z
+sub-00137,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:11.557Z
+sub-00138,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:04.892Z
+sub-00139,succeeded,paused-subscriber,until 2027-08-28,medium box,paused,until 2027-08-28,5 meals/week,paused,,0,2026-10-17T18:14:09.252Z
+sub-00140,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:10.059Z
+sub-00141,succeeded,paused-subscriber,until 2027-10-02,small box,paused,until 2027-10-02,3 meals/week,paused,,0,2026-10-17T18:14:06.248Z
+sub-00142,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:10.011Z
+sub-00143,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:06.017Z
+sub-00144,succeeded,paused-subscriber,until 2027-01-05,small box,paused,until 2027-01-05,3 meals/week,paused,,0,2026-10-17T18:10:15.917Z
+sub-00145,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:09:47.653Z
+sub-00146,succeeded,paused-subscriber,until 2027-03-07,large box,paused,until 2027-03-07,8 meals/week,paused,,0,2026-10-17T18:14:03.687Z
+sub-00147,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:02.436Z
+sub-00148,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:05.167Z
+sub-00149,succeeded,paused-subscriber,until 2027-06-10,large box,paused,until 2027-06-10,8 meals/week,paused,,0,2026-10-17T18:14:01.935Z
+sub-00150,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:08.293Z
+sub-00151,failed,,none,medium box,paused,,,,Paused subscriber has no pausedUntil date,0,2026-10-17T18:14:09.491Z
+sub-00152,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:10.322Z
+sub-00153,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:10:16.164Z
+sub-00154,succeeded,paused-subscriber,until 2027-11-15,medium box,paused,until 2027-11-15,5 meals/week,paused,,0,2026-10-17T18:09:47.733Z
+sub-00155,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:07.736Z
+sub-00156,succeeded,paused-subscriber,until 2027-01-17,small box,paused,until 2027-01-17,3 meals/week,paused,,0,2026-10-17T18:14:08.468Z
+sub-00157,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:10:15.752Z
+sub-00158,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:08.191Z
+sub-00159,succeeded,paused-subscriber,until 2027-04-20,small box,paused,until 2027-04-20,3 meals/week,paused,,0,2026-10-17T18:14:11.435Z
+sub-00160,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:10:15.812Z
+sub-00161,succeeded,paused-subscriber,until 2027-06-22,large box,paused,until 2027-06-22,8 meals/week,paused,,0,2026-10-17T18:14:11.051Z
+sub-00162,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:10:16.093Z
+sub-00163,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:02.028Z
+sub-00164,succeeded,paused-subscriber,until 2027-09-25,large box,paused,until 2027-09-25,8 meals/week,paused,,0,2026-10-17T18:14:04.308Z
+sub-00165,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:09:47.697Z
+sub-00166,succeeded,paused-subscriber,until 2027-11-27,medium box,paused,until 2027-11-27,5 meals/week,paused,,0,2026-10-17T18:14:11.698Z
+sub-00167,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:09:47.658Z
+sub-00168,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:08.057Z
+sub-00169,succeeded,paused-subscriber,until 2027-02-02,medium box,paused,until 2027-02-02,5 meals/week,paused,,0,2026-10-17T18:14:03.119Z
+sub-00170,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:04.788Z
+sub-00171,succeeded,paused-subscriber,until 2027-04-04,small box,paused,until 2027-04-04,3 meals/week,paused,,0,2026-10-17T18:14:03.025Z
+sub-00172,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:08.176Z
+sub-00173,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:01.971Z
+sub-00174,succeeded,paused-subscriber,until 2027-07-07,small box,paused,until 2027-07-07,3 meals/week,paused,,0,2026-10-17T18:14:07.467Z
+sub-00175,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:04.767Z
+sub-00176,succeeded,paused-subscriber,until 2027-09-09,large box,paused,until 2027-09-09,8 meals/week,paused,,0,2026-10-17T18:10:15.942Z
+sub-00177,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:11.651Z
+sub-00178,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:11.471Z
+sub-00179,succeeded,paused-subscriber,until 2027-12-12,large box,paused,until 2027-12-12,8 meals/week,paused,,0,2026-10-17T18:14:02.197Z
+sub-00180,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:05.187Z
+sub-00181,succeeded,paused-subscriber,until 2027-02-14,medium box,paused,until 2027-02-14,5 meals/week,paused,,0,2026-10-17T18:14:06.468Z
+sub-00182,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:05.799Z
+sub-00183,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:08.247Z
+sub-00184,succeeded,paused-subscriber,until 2027-05-17,medium box,paused,until 2027-05-17,5 meals/week,paused,,0,2026-10-17T18:14:11.536Z
+sub-00185,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:07.074Z
+sub-00186,succeeded,paused-subscriber,until 2027-07-19,small box,paused,until 2027-07-19,3 meals/week,paused,,0,2026-10-17T18:14:10.045Z
+sub-00187,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:10.335Z
+sub-00188,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:02.314Z
+sub-00189,succeeded,paused-subscriber,until 2027-10-22,small box,paused,until 2027-10-22,3 meals/week,paused,,0,2026-10-17T18:14:04.327Z
+sub-00190,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:03.112Z
+sub-00191,succeeded,paused-subscriber,until 2027-12-24,large box,paused,until 2027-12-24,8 meals/week,paused,,0,2026-10-17T18:10:16.012Z
+sub-00192,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:04.876Z
+sub-00193,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:10.447Z
+sub-00194,succeeded,paused-subscriber,until 2027-03-27,large box,paused,until 2027-03-27,8 meals/week,paused,,0,2026-10-17T18:14:03.132Z
+sub-00195,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:04.955Z
+sub-00196,succeeded,paused-subscriber,until 2027-05-01,medium box,paused,until 2027-05-01,5 meals/week,paused,,0,2026-10-17T18:14:06.480Z
+sub-00197,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:05.287Z
+sub-00198,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:03.608Z
+sub-00199,succeeded,paused-subscriber,until 2027-08-04,medium box,paused,until 2027-08-04,5 meals/week,paused,,0,2026-10-17T18:14:05.131Z
+sub-00200,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:10.679Z
+sub-00201,failed,,none,small box,paused,,,,Paused subscriber has no pausedUntil date,0,2026-10-17T18:14:11.511Z
+sub-00202,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:04.371Z
+sub-00203,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:11.452Z
+sub-00204,succeeded,paused-subscriber,until 2027-01-09,small box,paused,until 2027-01-09,3 meals/week,paused,,0,2026-10-17T18:14:05.148Z
+sub-00205,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:09:46.976Z
+sub-00206,succeeded,paused-subscriber,until 2027-03-11,large box,paused,until 2027-03-11,8 meals/week,paused,,0,2026-10-17T18:14:05.551Z
+sub-00207,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:04.367Z
+sub-00208,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:11.353Z
+sub-00209,succeeded,paused-subscriber,until 2027-06-14,large box,paused,until 2027-06-14,8 meals/week,paused,,0,2026-10-17T18:10:15.971Z
+sub-00210,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:09:46.773Z
+sub-00211,succeeded,paused-subscriber,until 2027-08-16,medium box,paused,until 2027-08-16,5 meals/week,paused,,0,2026-10-17T18:14:02.377Z
+sub-00212,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:02.973Z
+sub-00213,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:09.056Z
+sub-00214,succeeded,paused-subscriber,until 2027-11-19,medium box,paused,until 2027-11-19,5 meals/week,paused,,0,2026-10-17T18:14:05.535Z
+sub-00215,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:08.698Z
+sub-00216,succeeded,paused-subscriber,until 2027-01-21,small box,paused,until 2027-01-21,3 meals/week,paused,,0,2026-10-17T18:10:16.492Z
+sub-00217,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:04.347Z
+sub-00218,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:09:47.673Z
+sub-00219,succeeded,paused-subscriber,until 2027-04-24,small box,paused,until 2027-04-24,3 meals/week,paused,,0,2026-10-17T18:14:04.440Z
+sub-00220,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:05.595Z
+sub-00221,succeeded,paused-subscriber,until 2027-06-26,large box,paused,until 2027-06-26,8 meals/week,paused,,0,2026-10-17T18:09:46.473Z
+sub-00222,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:05.072Z
+sub-00223,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:07.616Z
+sub-00224,succeeded,paused-subscriber,until 2027-09-01,large box,paused,until 2027-09-01,8 meals/week,paused,,0,2026-10-17T18:14:06.722Z
+sub-00225,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:06.567Z
+sub-00226,succeeded,paused-subscriber,until 2027-11-03,medium box,paused,until 2027-11-03,5 meals/week,paused,,0,2026-10-17T18:14:08.627Z
+sub-00227,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:03.236Z
+sub-00228,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:10.658Z
+sub-00229,succeeded,paused-subscriber,until 2027-02-06,medium box,paused,until 2027-02-06,5 meals/week,paused,,0,2026-10-17T18:14:05.432Z
+sub-00230,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:07.016Z
+sub-00231,succeeded,paused-subscriber,until 2027-04-08,small box,paused,until 2027-04-08,3 meals/week,paused,,0,2026-10-17T18:14:11.211Z
+sub-00232,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:11.831Z
+sub-00233,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:11.011Z
+sub-00234,succeeded,paused-subscriber,until 2027-07-11,small box,paused,until 2027-07-11,3 meals/week,paused,,0,2026-10-17T18:09:48.061Z
+sub-00235,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:09:47.178Z
+sub-00236,succeeded,paused-subscriber,until 2027-09-13,large box,paused,until 2027-09-13,8 meals/week,paused,,0,2026-10-17T18:14:05.651Z
+sub-00237,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:07.476Z
+sub-00238,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:09.918Z
+sub-00239,succeeded,paused-subscriber,until 2027-12-16,large box,paused,until 2027-12-16,8 meals/week,paused,,0,2026-10-17T18:14:08.375Z
+sub-00240,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:04.439Z
+sub-00241,succeeded,paused-subscriber,until 2027-02-18,medium box,paused,until 2027-02-18,5 meals/week,paused,,0,2026-10-17T18:14:09.547Z
+sub-00242,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:07.618Z
+sub-00243,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:02.416Z
+sub-00244,succeeded,paused-subscriber,until 2027-05-21,medium box,paused,until 2027-05-21,5 meals/week,paused,,0,2026-10-17T18:14:05.835Z
+sub-00245,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:10.632Z
+sub-00246,succeeded,paused-subscriber,until 2027-07-23,small box,paused,until 2027-07-23,3 meals/week,paused,,0,2026-10-17T18:14:02.554Z
+sub-00247,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:10:15.792Z
+sub-00248,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:05.495Z
+sub-00249,succeeded,paused-subscriber,until 2027-10-26,small box,paused,until 2027-10-26,3 meals/week,paused,,0,2026-10-17T18:14:11.247Z
+sub-00250,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:07.135Z
+sub-00251,failed,,none,large box,paused,,,,Paused subscriber has no pausedUntil date,0,2026-10-17T18:14:03.851Z
+sub-00252,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:11.278Z
+sub-00253,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:08.740Z
+sub-00254,succeeded,paused-subscriber,until 2027-03-03,large box,paused,until 2027-03-03,8 meals/week,paused,,0,2026-10-17T18:14:05.815Z
+sub-00255,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:03.611Z
+sub-00256,succeeded,paused-subscriber,until 2027-05-05,medium box,paused,until 2027-05-05,5 meals/week,paused,,0,2026-10-17T18:14:02.390Z
+sub-00257,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:09:47.618Z
+sub-00258,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:09.935Z
+sub-00259,succeeded,paused-subscriber,until 2027-08-08,medium box,paused,until 2027-08-08,5 meals/week,paused,,0,2026-10-17T18:14:02.459Z
+sub-00260,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:05.517Z
+sub-00261,succeeded,paused-subscriber,until 2027-10-10,small box,paused,until 2027-10-10,3 meals/week,paused,,0,2026-10-17T18:14:07.696Z
+sub-00262,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:03.736Z
+sub-00263,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:09:46.638Z
+sub-00264,succeeded,paused-subscriber,until 2027-01-13,small box,paused,until 2027-01-13,3 meals/week,paused,,0,2026-10-17T18:14:08.719Z
+sub-00265,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:05.856Z
+sub-00266,succeeded,paused-subscriber,until 2027-03-15,large box,paused,until 2027-03-15,8 meals/week,paused,,0,2026-10-17T18:14:08.227Z
+sub-00267,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:06.176Z
+sub-00268,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:09:48.140Z
+sub-00269,succeeded,paused-subscriber,until 2027-06-18,large box,paused,until 2027-06-18,8 meals/week,paused,,0,2026-10-17T18:14:08.735Z
+sub-00270,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:11.672Z
+sub-00271,succeeded,paused-subscriber,until 2027-08-20,medium box,paused,until 2027-08-20,5 meals/week,paused,,0,2026-10-17T18:14:09.756Z
+sub-00272,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:09:47.099Z
+sub-00273,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:03.732Z
+sub-00274,succeeded,paused-subscriber,until 2027-11-23,medium box,paused,until 2027-11-23,5 meals/week,paused,,0,2026-10-17T18:09:46.274Z
+sub-00275,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:10:16.460Z
+sub-00276,succeeded,paused-subscriber,until 2027-01-25,small box,paused,until 2027-01-25,3 meals/week,paused,,0,2026-10-17T18:10:16.153Z
+sub-00277,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:10:16.113Z
+sub-00278,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:10.754Z
+sub-00279,succeeded,paused-subscriber,until 2027-04-28,small box,paused,until 2027-04-28,3 meals/week,paused,,0,2026-10-17T18:14:02.011Z
+sub-00280,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:11.342Z
+sub-00281,succeeded,paused-subscriber,until 2027-06-02,large box,paused,until 2027-06-02,8 meals/week,paused,,0,2026-10-17T18:14:03.757Z
+sub-00282,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:11.233Z
+sub-00283,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:09.894Z
+sub-00284,succeeded,paused-subscriber,until 2027-09-05,large box,paused,until 2027-09-05,8 meals/week,paused,,0,2026-10-17T18:14:03.671Z
+sub-00285,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:10:16.278Z
+sub-00286,succeeded,paused-subscriber,until 2027-11-07,medium box,paused,until 2027-11-07,5 meals/week,paused,,0,2026-10-17T18:14:03.271Z
+sub-00287,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:10.310Z
+sub-00288,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:10:15.761Z
+sub-00289,succeeded,paused-subscriber,until 2027-02-10,medium box,paused,until 2027-02-10,5 meals/week,paused,,0,2026-10-17T18:14:08.091Z
+sub-00290,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:02.996Z
+sub-00291,succeeded,paused-subscriber,until 2027-04-12,small box,paused,until 2027-04-12,3 meals/week,paused,,0,2026-10-17T18:14:07.051Z
+sub-00292,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:11.615Z
+sub-00293,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:05.098Z
+sub-00294,succeeded,paused-subscriber,until 2027-07-15,small box,paused,until 2027-07-15,3 meals/week,paused,,0,2026-10-17T18:10:15.718Z
+sub-00295,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:02.171Z
+sub-00296,succeeded,paused-subscriber,until 2027-09-17,large box,paused,until 2027-09-17,8 meals/week,paused,,0,2026-10-17T18:14:03.179Z
+sub-00297,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:10.680Z
+sub-00298,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:11.294Z
+sub-00299,succeeded,paused-subscriber,until 2027-12-20,large box,paused,until 2027-12-20,8 meals/week,paused,,0,2026-10-17T18:14:06.197Z
+sub-00300,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:09.035Z
+sub-00301,failed,,none,medium box,paused,,,,Paused subscriber has no pausedUntil date,0,2026-10-17T18:14:01.988Z
+sub-00302,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:04.287Z
+sub-00303,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:11.635Z
+sub-00304,succeeded,paused-subscriber,until 2027-05-25,medium box,paused,until 2027-05-25,5 meals/week,paused,,0,2026-10-17T18:14:05.232Z
+sub-00305,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:08.395Z
+sub-00306,succeeded,paused-subscriber,until 2027-07-27,small box,paused,until 2027-07-27,3 meals/week,paused,,0,2026-10-17T18:14:02.331Z
+sub-00307,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:05.572Z
+sub-00308,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:11.222Z
+sub-00309,succeeded,paused-subscriber,until 2027-10-02,small box,paused,until 2027-10-02,3 meals/week,paused,,0,2026-10-17T18:14:03.051Z
+sub-00310,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:01.937Z
+sub-00311,succeeded,paused-subscriber,until 2027-12-04,large box,paused,until 2027-12-04,8 meals/week,paused,,0,2026-10-17T18:09:46.653Z
+sub-00312,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:11.487Z
+sub-00313,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:10.715Z
+sub-00314,succeeded,paused-subscriber,until 2027-03-07,large box,paused,until 2027-03-07,8 meals/week,paused,,0,2026-10-17T18:14:09.131Z
+sub-00315,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:08.132Z
+sub-00316,succeeded,paused-subscriber,until 2027-05-09,medium box,paused,until 2027-05-09,5 meals/week,paused,,0,2026-10-17T18:14:09.775Z
+sub-00317,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:08.095Z
+sub-00318,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:07.503Z
+sub-00319,succeeded,paused-subscriber,until 2027-08-12,medium box,paused,until 2027-08-12,5 meals/week,paused,,0,2026-10-17T18:14:02.531Z
+sub-00320,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:08.891Z
+sub-00321,succeeded,paused-subscriber,until 2027-10-14,small box,paused,until 2027-10-14,3 meals/week,paused,,0,2026-10-17T18:14:05.756Z
+sub-00322,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:10:16.248Z
+sub-00323,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:09:47.201Z
+sub-00324,succeeded,paused-subscriber,until 2027-01-17,small box,paused,until 2027-01-17,3 meals/week,paused,,0,2026-10-17T18:14:11.267Z
+sub-00325,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:10.778Z
+sub-00326,succeeded,paused-subscriber,until 2027-03-19,large box,paused,until 2027-03-19,8 meals/week,paused,,0,2026-10-17T18:14:11.687Z
+sub-00327,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:10.592Z
+sub-00328,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:02.128Z
+sub-00329,succeeded,paused-subscriber,until 2027-06-22,large box,paused,until 2027-06-22,8 meals/week,paused,,0,2026-10-17T18:14:03.771Z
+sub-00330,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:11.716Z
+sub-00331,succeeded,paused-subscriber,until 2027-08-24,medium box,paused,until 2027-08-24,5 meals/week,paused,,0,2026-10-17T18:14:02.433Z
+sub-00332,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:06.971Z
+sub-00333,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:10.412Z
+sub-00334,succeeded,paused-subscriber,until 2027-11-27,medium box,paused,until 2027-11-27,5 meals/week,paused,,0,2026-10-17T18:14:07.576Z
+sub-00335,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:10.871Z
+sub-00336,succeeded,paused-subscriber,until 2027-01-01,small box,paused,until 2027-01-01,3 meals/week,paused,,0,2026-10-17T18:09:46.733Z
+sub-00337,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:03.791Z
+sub-00338,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:10.352Z
+sub-00339,succeeded,paused-subscriber,until 2027-04-04,small box,paused,until 2027-04-04,3 meals/week,paused,,0,2026-10-17T18:09:46.539Z
+sub-00340,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:10:16.253Z
+sub-00341,succeeded,paused-subscriber,until 2027-06-06,large box,paused,until 2027-06-06,8 meals/week,paused,,0,2026-10-17T18:14:04.852Z
+sub-00342,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:03.097Z
+sub-00343,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:09:47.494Z
+sub-00344,succeeded,paused-subscriber,until 2027-09-09,large box,paused,until 2027-09-09,8 meals/week,paused,,0,2026-10-17T18:14:04.416Z
+sub-00345,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:04.331Z
+sub-00346,succeeded,paused-subscriber,until 2027-11-11,medium box,paused,until 2027-11-11,5 meals/week,paused,,0,2026-10-17T18:14:07.456Z
+sub-00347,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:03.832Z
+sub-00348,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:08.856Z
+sub-00349,succeeded,paused-subscriber,until 2027-02-14,medium box,paused,until 2027-02-14,5 meals/week,paused,,0,2026-10-17T18:14:06.875Z
+sub-00350,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:05.988Z
+sub-00351,failed,,none,small box,paused,,,,Paused subscriber has no pausedUntil date,0,2026-10-17T18:14:01.997Z
+sub-00352,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:09.111Z
+sub-00353,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:02.491Z
+sub-00354,succeeded,paused-subscriber,until 2027-07-19,small box,paused,until 2027-07-19,3 meals/week,paused,,0,2026-10-17T18:14:05.114Z
+sub-00355,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:06.735Z
+sub-00356,succeeded,paused-subscriber,until 2027-09-21,large box,paused,until 2027-09-21,8 meals/week,paused,,0,2026-10-17T18:14:06.967Z
+sub-00357,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:11.575Z
+sub-00358,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:10:16.012Z
+sub-00359,succeeded,paused-subscriber,until 2027-12-24,large box,paused,until 2027-12-24,8 meals/week,paused,,0,2026-10-17T18:14:09.082Z
+sub-00360,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:03.088Z
+sub-00361,succeeded,paused-subscriber,until 2027-02-26,medium box,paused,until 2027-02-26,5 meals/week,paused,,0,2026-10-17T18:14:08.716Z
+sub-00362,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:08.116Z
+sub-00363,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:08.304Z
+sub-00364,succeeded,paused-subscriber,until 2027-05-01,medium box,paused,until 2027-05-01,5 meals/week,paused,,0,2026-10-17T18:10:15.813Z
+sub-00365,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:06.928Z
+sub-00366,succeeded,paused-subscriber,until 2027-07-03,small box,paused,until 2027-07-03,3 meals/week,paused,,0,2026-10-17T18:14:04.937Z
+sub-00367,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:09:46.478Z
+sub-00368,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:11.151Z
+sub-00369,succeeded,paused-subscriber,until 2027-10-06,small box,paused,until 2027-10-06,3 meals/week,paused,,0,2026-10-17T18:14:09.358Z
+sub-00370,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:09:46.613Z
+sub-00371,succeeded,paused-subscriber,until 2027-12-08,large box,paused,until 2027-12-08,8 meals/week,paused,,0,2026-10-17T18:10:15.739Z
+sub-00372,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:08.660Z
+sub-00373,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:04.235Z
+sub-00374,succeeded,paused-subscriber,until 2027-03-11,large box,paused,until 2027-03-11,8 meals/week,paused,,0,2026-10-17T18:14:04.396Z
+sub-00375,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:09:48.081Z
+sub-00376,succeeded,paused-subscriber,until 2027-05-13,medium box,paused,until 2027-05-13,5 meals/week,paused,,0,2026-10-17T18:14:09.971Z
+sub-00377,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:08.973Z
+sub-00378,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:06.768Z
+sub-00379,succeeded,paused-subscriber,until 2027-08-16,medium box,paused,until 2027-08-16,5 meals/week,paused,,0,2026-10-17T18:14:02.057Z
+sub-00380,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:08.045Z
+sub-00381,succeeded,paused-subscriber,until 2027-10-18,small box,paused,until 2027-10-18,3 meals/week,paused,,0,2026-10-17T18:14:09.536Z
+sub-00382,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:07.797Z
+sub-00383,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:09.994Z
+sub-00384,succeeded,paused-subscriber,until 2027-01-21,small box,paused,until 2027-01-21,3 meals/week,paused,,0,2026-10-17T18:14:04.587Z
+sub-00385,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:06.633Z
+sub-00386,succeeded,paused-subscriber,until 2027-03-23,large box,paused,until 2027-03-23,8 meals/week,paused,,0,2026-10-17T18:14:09.472Z
+sub-00387,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:09.698Z
+sub-00388,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:10:16.072Z
+sub-00389,succeeded,paused-subscriber,until 2027-06-26,large box,paused,until 2027-06-26,8 meals/week,paused,,0,2026-10-17T18:14:05.747Z
+sub-00390,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:11.031Z
+sub-00391,succeeded,paused-subscriber,until 2027-08-28,medium box,paused,until 2027-08-28,5 meals/week,paused,,0,2026-10-17T18:09:46.833Z
+sub-00392,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:08.195Z
+sub-00393,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:09.579Z
+sub-00394,succeeded,paused-subscriber,until 2027-11-03,medium box,paused,until 2027-11-03,5 meals/week,paused,,0,2026-10-17T18:14:10.547Z
+sub-00395,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:07.408Z
+sub-00396,succeeded,paused-subscriber,until 2027-01-05,small box,paused,until 2027-01-05,3 meals/week,paused,,0,2026-10-17T18:10:16.577Z
+sub-00397,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:10.099Z
+sub-00398,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:03.038Z
+sub-00399,succeeded,paused-subscriber,until 2027-04-08,small box,paused,until 2027-04-08,3 meals/week,paused,,0,2026-10-17T18:14:08.613Z
+sub-00400,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:03.156Z
+sub-00401,failed,,none,large box,paused,,,,Paused subscriber has no pausedUntil date,0,2026-10-17T18:14:09.456Z
+sub-00402,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:08.355Z
+sub-00403,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:02.140Z
+sub-00404,succeeded,paused-subscriber,until 2027-09-13,large box,paused,until 2027-09-13,8 meals/week,paused,,0,2026-10-17T18:14:03.668Z
+sub-00405,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:06.652Z
+sub-00406,succeeded,paused-subscriber,until 2027-11-15,medium box,paused,until 2027-11-15,5 meals/week,paused,,0,2026-10-17T18:14:04.261Z
+sub-00407,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:08.059Z
+sub-00408,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:10.155Z
+sub-00409,succeeded,paused-subscriber,until 2027-02-18,medium box,paused,until 2027-02-18,5 meals/week,paused,,0,2026-10-17T18:10:15.992Z
+sub-00410,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:10.199Z
+sub-00411,succeeded,paused-subscriber,until 2027-04-20,small box,paused,until 2027-04-20,3 meals/week,paused,,0,2026-10-17T18:09:47.053Z
+sub-00412,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:06.815Z
+sub-00413,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:03.075Z
+sub-00414,succeeded,paused-subscriber,until 2027-07-23,small box,paused,until 2027-07-23,3 meals/week,paused,,0,2026-10-17T18:14:06.607Z
+sub-00415,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:02.408Z
+sub-00416,succeeded,paused-subscriber,until 2027-09-25,large box,paused,until 2027-09-25,8 meals/week,paused,,0,2026-10-17T18:14:08.816Z
+sub-00417,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:05.421Z
+sub-00418,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:10:15.894Z
+sub-00419,succeeded,paused-subscriber,until 2027-12-28,large box,paused,until 2027-12-28,8 meals/week,paused,,0,2026-10-17T18:10:15.978Z
+sub-00420,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:04.948Z
+sub-00421,succeeded,paused-subscriber,until 2027-02-02,medium box,paused,until 2027-02-02,5 meals/week,paused,,0,2026-10-17T18:09:46.873Z
+sub-00422,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:04.632Z
+sub-00423,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:09:46.553Z
+sub-00424,succeeded,paused-subscriber,until 2027-05-05,medium box,paused,until 2027-05-05,5 meals/week,paused,,0,2026-10-17T18:14:08.320Z
+sub-00425,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:10:16.553Z
+sub-00426,succeeded,paused-subscriber,until 2027-07-07,small box,paused,until 2027-07-07,3 meals/week,paused,,0,2026-10-17T18:14:05.156Z
+sub-00427,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:11.071Z
+sub-00428,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:09:48.096Z
+sub-00429,succeeded,paused-subscriber,until 2027-10-10,small box,paused,until 2027-10-10,3 meals/week,paused,,0,2026-10-17T18:14:06.307Z
+sub-00430,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:08.279Z
+sub-00431,succeeded,paused-subscriber,until 2027-12-12,large box,paused,until 2027-12-12,8 meals/week,paused,,0,2026-10-17T18:14:04.903Z
+sub-00432,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:10:16.346Z
+sub-00433,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:02.174Z
+sub-00434,succeeded,paused-subscriber,until 2027-03-15,large box,paused,until 2027-03-15,8 meals/week,paused,,0,2026-10-17T18:14:07.512Z
+sub-00435,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:02.038Z
+sub-00436,succeeded,paused-subscriber,until 2027-05-17,medium box,paused,until 2027-05-17,5 meals/week,paused,,0,2026-10-17T18:14:09.011Z
+sub-00437,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:08.647Z
+sub-00438,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:03.852Z
+sub-00439,succeeded,paused-subscriber,until 2027-08-20,medium box,paused,until 2027-08-20,5 meals/week,paused,,0,2026-10-17T18:14:04.751Z
+sub-00440,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:06.227Z
+sub-00441,succeeded,paused-subscriber,until 2027-10-22,small box,paused,until 2027-10-22,3 meals/week,paused,,0,2026-10-17T18:14:07.771Z
+sub-00442,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:09.375Z
+sub-00443,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:05.635Z
+sub-00444,succeeded,paused-subscriber,until 2027-01-25,small box,paused,until 2027-01-25,3 meals/week,paused,,0,2026-10-17T18:14:02.107Z
+sub-00445,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:08.371Z
+sub-00446,succeeded,paused-subscriber,until 2027-03-27,large box,paused,until 2027-03-27,8 meals/week,paused,,0,2026-10-17T18:14:05.458Z
+sub-00447,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:10.811Z
+sub-00448,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:03.788Z
+sub-00449,succeeded,paused-subscriber,until 2027-06-02,large box,paused,until 2027-06-02,8 meals/week,paused,,0,2026-10-17T18:14:04.471Z
+sub-00450,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:10.831Z
+sub-00451,failed,,none,medium box,paused,,,,Paused subscriber has no pausedUntil date,0,2026-10-17T18:14:08.755Z
+sub-00452,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:10.075Z
+sub-00453,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:10.135Z
+sub-00454,succeeded,paused-subscriber,until 2027-11-07,medium box,paused,until 2027-11-07,5 meals/week,paused,,0,2026-10-17T18:14:08.675Z
+sub-00455,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:09.447Z
+sub-00456,succeeded,paused-subscriber,until 2027-01-09,small box,paused,until 2027-01-09,3 meals/week,paused,,0,2026-10-17T18:10:16.297Z
+sub-00457,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:04.832Z
+sub-00458,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:04.240Z
+sub-00459,succeeded,paused-subscriber,until 2027-04-12,small box,paused,until 2027-04-12,3 meals/week,paused,,0,2026-10-17T18:14:07.107Z
+sub-00460,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:02.047Z
+sub-00461,succeeded,paused-subscriber,until 2027-06-14,large box,paused,until 2027-06-14,8 meals/week,paused,,0,2026-10-17T18:14:04.807Z
+sub-00462,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:10:16.151Z
+sub-00463,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:10.367Z
+sub-00464,succeeded,paused-subscriber,until 2027-09-17,large box,paused,until 2027-09-17,8 meals/week,paused,,0,2026-10-17T18:14:07.535Z
+sub-00465,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:04.351Z
+sub-00466,succeeded,paused-subscriber,until 2027-11-19,medium box,paused,until 2027-11-19,5 meals/week,paused,,0,2026-10-17T18:09:46.393Z
+sub-00467,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:05.476Z
+sub-00468,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:10.575Z
+sub-00469,succeeded,paused-subscriber,until 2027-02-22,medium box,paused,until 2027-02-22,5 meals/week,paused,,0,2026-10-17T18:14:04.494Z
+sub-00470,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:03.211Z
+sub-00471,succeeded,paused-subscriber,until 2027-04-24,small box,paused,until 2027-04-24,3 meals/week,paused,,0,2026-10-17T18:14:06.515Z
+sub-00472,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:04.395Z
+sub-00473,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:09.512Z
+sub-00474,succeeded,paused-subscriber,until 2027-07-27,small box,paused,until 2027-07-27,3 meals/week,paused,,0,2026-10-17T18:14:06.268Z
+sub-00475,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:11.747Z
+sub-00476,succeeded,paused-subscriber,until 2027-09-01,large box,paused,until 2027-09-01,8 meals/week,paused,,0,2026-10-17T18:14:10.427Z
+sub-00477,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:09.532Z
+sub-00478,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:03.707Z
+sub-00479,succeeded,paused-subscriber,until 2027-12-04,large box,paused,until 2027-12-04,8 meals/week,paused,,0,2026-10-17T18:14:08.415Z
+sub-00480,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:09:47.473Z
+sub-00481,succeeded,paused-subscriber,until 2027-02-06,medium box,paused,until 2027-02-06,5 meals/week,paused,,0,2026-10-17T18:14:10.695Z
+sub-00482,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:05.608Z
+sub-00483,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:08.336Z
+sub-00484,succeeded,paused-subscriber,until 2027-05-09,medium box,paused,until 2027-05-09,5 meals/week,paused,,0,2026-10-17T18:10:16.537Z
+sub-00485,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:11.485Z
+sub-00486,succeeded,paused-subscriber,until 2027-07-11,small box,paused,until 2027-07-11,3 meals/week,paused,,0,2026-10-17T18:14:10.112Z
+sub-00487,succeeded,cancelled-subscriber,none,medium box,cancelled,none,none,cancelled,,0,2026-10-17T18:10:16.497Z
+sub-00488,succeeded,active-subscriber,none,large box,active,none,8 meals/week,active,,0,2026-10-17T18:14:09.611Z
+sub-00489,succeeded,paused-subscriber,until 2027-10-14,small box,paused,until 2027-10-14,3 meals/week,paused,,0,2026-10-17T18:14:06.356Z
+sub-00490,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:10:15.838Z
+sub-00491,succeeded,paused-subscriber,until 2027-12-16,large box,paused,until 2027-12-16,8 meals/week,paused,,0,2026-10-17T18:14:11.588Z
+sub-00492,succeeded,cancelled-subscriber,none,small box,cancelled,none,none,cancelled,,0,2026-10-17T18:10:16.393Z
+sub-00493,succeeded,active-subscriber,none,medium box,active,none,5 meals/week,active,,0,2026-10-17T18:14:09.277Z
+sub-00494,succeeded,paused-subscriber,until 2027-03-19,large box,paused,until 2027-03-19,8 meals/week,paused,,0,2026-10-17T18:14:09.372Z
+sub-00495,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:14:06.332Z
+sub-00496,succeeded,paused-subscriber,until 2027-05-21,medium box,paused,until 2027-05-21,5 meals/week,paused,,0,2026-10-17T18:14:04.296Z
+sub-00497,succeeded,cancelled-subscriber,none,large box,cancelled,none,none,cancelled,,0,2026-10-17T18:14:08.115Z
+sub-00498,succeeded,active-subscriber,none,small box,active,none,3 meals/week,active,,0,2026-10-17T18:09:47.098Z
+sub-00499,succeeded,paused-subscriber,until 2027-08-24,medium box,paused,until 2027-08-24,5 meals/week,paused,,0,2026-10-17T18:14:09.491Z
